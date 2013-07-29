@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/system_interface_title"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <PreferenceCategory
+        android:title="@string/system_custom_title" /> 
+    <!-- Navbar -->
+    <PreferenceScreen
+        android:id="@+id/system_navbar"
+        android:icon="@drawable/ic_dt_navbar"
+        android:fragment="com.android.settings.rascarlo.SystemNavbar"
+        android:title="@string/system_navbar_title" />
+
+    <!-- System -->
+    <PreferenceScreen
+        android:id="@+id/system_lock"
+        android:icon="@drawable/ic_dt_lockscreen"
+        android:fragment="com.android.settings.rascarlo.SystemLock"
+        android:title="@string/system_lock_title" />
+
+</PreferenceScreen>

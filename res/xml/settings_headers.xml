@@ -60,20 +60,12 @@
 
     <!-- Additional AOSPLUS controls -->
     <header android:title="@string/header_category_rom_settings" />
-
-    <!-- Navigation rings -->
+    <!-- System -->
     <header
-        android:id="@+id/nav_ring"
-        android:fragment="com.android.settings.crdroid.NavRing"
-        android:icon="@drawable/ic_settings_about"
-        android:title="@string/navigation_ring_title" />
-
-    <!-- Lockscreen targets -->
-    <header
-        android:id="@+id/lockscreen_tergets"
-        android:fragment="com.android.settings.crdroid.LockscreenTargets"
-        android:icon="@drawable/ic_settings_about"
-        android:title="@string/lockscreen_targets_title" />
+        android:id="@+id/system_settings"
+        android:icon="@drawable/ic_settings_system"
+        android:fragment="com.android.settings.rascarlo.SystemSettings"
+        android:title="@string/system_settings_title" />
 
     <!-- UpdateCenter -->
 

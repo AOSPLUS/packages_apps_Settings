@@ -4,7 +4,12 @@
 
     <!-- Settings main menu category heading. Rom (Launcher, Themes, System). [CHAR LIMIT=40] -->
     <string name="header_category_rom_settings">Advanced settings</string>
-
+    <!-- System Interface settings  -->
+    <string name="system_lock_title">Lockscreen</string>
+    <string name="system_custom_title">Interfaz</string>
+    <string name="system_navbar_title">Navbar</string>
+    <string name="system_settings_title">Build Tweaks</string>
+    <string name="system_interface_title">Build Tweaks</string>
     <!-- Themes -->
     <string name="theme_settings_title">Dark theme</string>
     <string name="theme_auto_mode_title">Switch theme</string>
