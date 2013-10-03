@@ -222,9 +222,11 @@
     <string name="change_crypt_password_title">Cambiar contraseña</string>
     <!-- Summary for PreferenceScreen to change encryption password [CHAR LIMIT=45] -->
     <string name="change_crypt_password_summary">Cambie la contraseña utilizada para el cifrado del dispositivo</string>
-
     <!-- Header on first screen of choose encryption password [CHAR LIMIT=30] -->
     <string name="encryptionpassword_choose_your_password_header">Establezca la contraseña de cifrado</string>
+
+    <!-- Lockscreen battery ring -->
+    <string name="battery_around_lockscreen_ring">Batería alrededor del anillo de desbloqueo</string>
 
 </resources>
 

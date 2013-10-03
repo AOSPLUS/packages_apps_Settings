@@ -16,4 +16,10 @@
         android:fragment="com.android.settings.crdroid.LockscreenTargets"
         android:title="@string/lockscreen_targets_title" />
 
+    <!-- Lockscreen ring battery -->
+    <CheckBoxPreference
+        android:key="battery_around_lockscreen_ring"
+        android:title="@string/battery_around_lockscreen_ring"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
