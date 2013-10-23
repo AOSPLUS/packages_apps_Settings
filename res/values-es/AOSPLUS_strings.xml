@@ -50,5 +50,13 @@
     <string name="theme_auto_mode_twilight">Durante el día</string>
     <string name="theme_auto_switch_mode_error">Modo automático de cambio de la condición de luz está activado. El cambio manual no es posible.</string>
 
+    <!-- Volume adjust sounds -->
+    <string name="volume_adjust_sounds_enable_title">Ajustar el volumen</string>
+    <string name="volume_adjust_sounds_enable_summary">Sonar al ajustar el volumen con las teclas físicas</string>
+
+    <!-- Link volumes -->
+    <string name="link_volume_ringtones">Enlazar volumen del tono de llamada &amp; el de notificaciones</string>
+    <string name="volume_ring_only_description">Tono de llamada</string>
+
 </resources>
 
