@@ -9,6 +9,7 @@
     <string name="system_lock_title">Pantalla de bloqueo</string>
     <string name="system_custom_title">Interfaz</string>
     <string name="system_navbar_title">Barra de navegación</string>
+    <string name="system_statusbar_title">Notificaciones</string>
     <string name="system_settings_title">Ajustes de AOSPLUS</string>
     <string name="system_interface_title">Ajustes de AOSPLUS</string>
 
