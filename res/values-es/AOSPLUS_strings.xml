@@ -49,9 +49,6 @@
     <string name="pulse_speed_slow">Lenta</string>
     <string name="pulse_speed_very_slow">Muy lenta</string>
 
-    <!-- Settings main menu category heading. Rom (Launcher, Themes, System). [CHAR LIMIT=40] -->
-    <string name="header_category_rom_settings">Ajustes avanzados</string>
-
     <!-- Themes -->
     <string name="theme_settings_title">Tema oscuro</string>
     <string name="theme_auto_mode_title">Cambiar tema</string>

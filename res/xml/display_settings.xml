@@ -57,6 +57,17 @@
                 android:key="notification_led"
                 android:title="@string/notification_led_category_title" />
 
+        <PreferenceCategory
+            android:key="category_wakeup_options"
+            android:title="@string/display_category_wakeup_options_title" >
+
+            <CheckBoxPreference
+                android:key="pref_volume_wake"
+                android:title="@string/pref_volume_wake_title"
+                android:summary="@string/pref_volume_wake_summary" />
+
+        </PreferenceCategory>
+
         <PreferenceScreen
                 android:key="wifi_display"
                 android:title="@string/wifi_display_settings_title"
