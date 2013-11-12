@@ -17,4 +17,9 @@
         android:key="battery_style_pref"
         android:title="@string/battery_icon_title" />
 
+     <PreferenceScreen
+        android:key="notification_drawer"
+        android:fragment="com.android.settings.slim.NotificationDrawerSettings"
+        android:title="@string/notification_drawer_title" />
+
 </PreferenceScreen>
