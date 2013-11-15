@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.rascarlo;
+package com.android.settings.slim;
 
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
@@ -30,7 +30,7 @@ import com.android.internal.util.slim.DeviceUtils;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
 
-public class SystemNavbar extends SettingsPreferenceFragment implements
+public class NavbarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
     private static final String TAG = "NavBar";
@@ -57,7 +57,7 @@ public class SystemNavbar extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
 
         // Load the preferences from an XML resource
-        addPreferencesFromResource(R.xml.system_navbar);
+        addPreferencesFromResource(R.xml.navbar_settings);
 
         PreferenceScreen prefs = getPreferenceScreen();
 
