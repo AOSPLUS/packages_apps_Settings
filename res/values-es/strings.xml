@@ -2047,17 +2047,4 @@
     <string name="user_image_choose_photo" msgid="7940990613897477057">"Seleccionar foto de la galería"</string>
     <string name="regulatory_info_text" msgid="5623087902354026557"></string>
 
-    <!-- AOSPLUS ADDS -->
-
-    <!-- Settings main menu category heading. Rom (Launcher, Themes, System). [CHAR LIMIT=40] -->
-    <string name="header_category_rom_settings">Ajustes avanzados</string>
-
-    <!-- Themes -->
-    <string name="theme_settings_title">Tema oscuro</string>
-    <string name="theme_auto_mode_title">Cambiar tema</string>
-    <string name="theme_auto_mode_off">Manual</string>
-    <string name="theme_auto_mode_lightsensor">Condición de luz</string>
-    <string name="theme_auto_mode_twilight">Durante el día</string>
-    <string name="theme_auto_switch_mode_error">Modo automático de cambio de la condición de luz está activado. El cambio manual no es posible.</string>
-
 </resources>
