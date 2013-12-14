@@ -2049,4 +2049,7 @@
 
     <!-- AOSPLUS ADDS -->
 
+    <!-- Settings main menu category heading. Rom (Launcher, Themes, System). [CHAR LIMIT=40] -->
+    <string name="header_category_rom_settings">Ajustes avanzados</string>
+
 </resources>
