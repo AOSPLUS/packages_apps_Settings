@@ -36,4 +36,11 @@
         android:fragment="com.android.settings.rascarlo.SystemKeyboard"
         android:title="@string/system_keyboard_title" />
 
+    <!-- Gesture anywhere -->
+         <PreferenceScreen
+            android:key="gesture_anywhere"
+            android:fragment="com.android.settings.chameleonos.labs.gestureanywhere.GestureAnywhereSettings"
+            android:icon="@drawable/ic_dt_gesture_anywhere"
+            android:title="@string/gesture_anywhere_title" />
+
 </PreferenceScreen>
