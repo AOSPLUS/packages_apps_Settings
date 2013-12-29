@@ -21,4 +21,14 @@
         android:fragment="com.android.settings.rascarlo.SystemLock"
         android:title="@string/system_lock_title" />
 
+    <PreferenceCategory
+        android:title="@string/system_misc_title" /> 
+
+    <!-- Identicons -->
+    <PreferenceScreen
+         android:key="identicons"
+         android:fragment="com.android.settings.chameleonos.labs.identicons.IdenticonsSettings"
+         android:icon="@drawable/ic_dt_identicons"
+         android:title="@string/identicons_title" />
+
 </PreferenceScreen>
