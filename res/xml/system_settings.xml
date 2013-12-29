@@ -36,6 +36,9 @@
         android:fragment="com.android.settings.rascarlo.SystemKeyboard"
         android:title="@string/system_keyboard_title" />
 
+    <PreferenceCategory
+        android:title="@string/system_misc_title" /> 
+
     <!-- Appsidebar -->
    <PreferenceScreen
         android:key="app_sidebar"
@@ -49,5 +52,12 @@
         android:fragment="com.android.settings.chameleonos.labs.gestureanywhere.GestureAnywhereSettings"
         android:icon="@drawable/ic_dt_gesture_anywhere"
         android:title="@string/gesture_anywhere_title" />
+
+    <!-- Identicons -->
+     <PreferenceScreen
+        android:key="identicons"
+        android:fragment="com.android.settings.chameleonos.labs.identicons.IdenticonsSettings"
+        android:icon="@drawable/ic_dt_identicons"
+        android:title="@string/identicons_title" />
 
 </PreferenceScreen>
