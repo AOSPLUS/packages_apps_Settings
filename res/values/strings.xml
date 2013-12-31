@@ -4903,4 +4903,7 @@
 
     <!-- Text to display in regulatory info screen (from device overlay). -->
     <string name="regulatory_info_text"></string>
+    
+    <!-- AOSPLUS ADDS -->
+    <string name="slim_center_title">UpdateCenter</string>
 </resources>
