@@ -58,6 +58,8 @@
         android:fragment="com.android.settings.WirelessSettings"
         android:icon="@drawable/empty_icon" />
 
+    <!-- Additional AOSPLUS controls -->
+    <header android:title="@string/header_category_rom_settings" />
 
     <!-- UpdateCenter -->
 
@@ -70,9 +72,6 @@
             android:targetPackage="com.slim.ota"
             android:targetClass="com.slim.center.SlimCenter" />
     </header>
-
-    <!-- Additional AOSPLUS controls -->
-    <header android:title="@string/header_category_rom_settings" />
 
     <!-- Themes -->
     <header
