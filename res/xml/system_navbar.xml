@@ -11,4 +11,11 @@
         android:fragment="com.android.settings.crdroid.NavRing"
         android:title="@string/navigation_ring_title" />
 
+    <!-- Navigation bar height -->
+    <SeekBarPreference
+        android:key="navigation_bar_height"
+        android:title="@string/navigation_bar_height"
+        android:max="100"
+        android:defaultValue="100" />
+
 </PreferenceScreen>
