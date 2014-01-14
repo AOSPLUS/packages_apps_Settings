@@ -4,13 +4,12 @@
 
     <!-- Settings main menu category heading. Rom (Launcher, Themes, System). [CHAR LIMIT=40] -->
     <string name="header_category_rom_settings">Advanced settings</string>
-    <string name="system_custom_title">Interface</string>
-    <string name="system_misc_title">Miscelaneous</string>
     <!-- System Interface settings  -->
     <string name="system_lock_title">Lockscreen</string>
+    <string name="system_custom_title">Interfaz</string>
     <string name="system_navbar_title">Navbar</string>
-    <string name="system_settings_title">AOSPLUS Tweaks</string>
-    <string name="system_interface_title">AOSPLUS Tweaks</string>
+    <string name="system_settings_title">Build Tweaks</string>
+    <string name="system_interface_title">Build Tweaks</string>
     <!-- Themes -->
     <string name="theme_settings_title">Dark theme</string>
     <string name="theme_auto_mode_title">Switch theme</string>
@@ -102,29 +101,5 @@
     <string name="offset_top">Offset to the top of the screen:</string>
     <string name="privacy_mode">Privacy Mode</string>
     <string name="privacy_mode_summary">Disables notifications from beeing shown and dismissed. This way, you just see the icons of your notifications.</string>
-
-    <!-- Identicons -->
-    <string name="identicons_title">Identicons</string>
-    <string name="identicons_enabled_title">Identicons</string>
-    <string name="identicons_enabled_summary">Use identicon as default contact picture when creating new contacts</string>
-    <string name="identicons_style_title">Identicon style</string>
-    <string name="identicons_style_summary">Choose an identicon style to use</string>
-    <string name="identicons_create_title">Create identicons</string>
-    <string name="identicons_create_summary">Create identicons for existing contacts without a contact photo</string>
-    <string name="identicons_creation_service_running_title">Creating identicons</string>
-    <string name="identicons_creation_service_running_summary"></string>
-    <string name="identicons_creation_service_contact_summary">Processing %s</string>
-    <string name="identicons_creation_service_contact_summary_finishing">Tying up loose ends...</string>
-    <string name="identicons_remove_title">Remove identicons</string>
-    <string name="identicons_remove_summary">Remove identicon from contacts that have one set</string>
-    <string name="identicons_remove_service_running_title">Removing identicons</string>
-    <string name="identicons_remove_service_running_summary"></string>
-    <string name="identicons_remove_service_contact_summary">Processing photo %1$d/%2$d</string>
-    <string name="identicons_remove_service_contact_summary_finishing">Tying up loose ends...</string>
-    <string name="identicons_style_retro">Retro</string>
-    <string name="identicons_style_contemporary">Contemporary</string>
-    <string name="identicons_style_spirograph">Spirograph</string>
-    <string name="identicons_style_dotmatrix">Dot matrix</string>
-
 
 </resources>

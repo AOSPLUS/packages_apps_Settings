@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    
-    <!--Headers -->
-    <string name="header_category_rom_settings">Ajustes avanzados</string>
-    <string name="system_custom_title">Interfaz</string>
-    <string name="system_misc_title">Varios</string>
-
-    <!-- System Interface settings  -->
-    <string name="system_lock_title">Pantalla de bloqueo</string>
-    <string name="system_navbar_title">Navbar</string>
-    <string name="system_settings_title">Ajustes de AOSPLUS</string>
-    <string name="system_interface_title">Ajustes de AOSPLUS</string>
+   
     <!-- Notification LED -->
     <string name="notification_led_category_title">Led de notificaciones</string>
     <string name="edit_light_settings">Editar notificación</string>
@@ -49,7 +39,10 @@
     <string name="pulse_speed_slow">Lenta</string>
     <string name="pulse_speed_very_slow">Muy lenta</string>
 
-    <!-- Tema -->
+    <!-- Settings main menu category heading. Rom (Launcher, Themes, System). [CHAR LIMIT=40] -->
+    <string name="header_category_rom_settings">Ajustes avanzados</string>
+
+    <!-- Themes -->
     <string name="theme_settings_title">Tema oscuro</string>
     <string name="theme_auto_mode_title">Cambiar tema</string>
     <string name="theme_auto_mode_off">Manual</string>
