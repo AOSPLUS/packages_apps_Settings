@@ -122,5 +122,36 @@
     <string name="icon_picker_twitter">Twitter</string>
 
     <string name="profile_applist_title">Aplicaciones</string>
+
+
+    <!-- Lockscreen Notifications -->
+    <!-- Categories --> 
+    <string name="general">General</string>
+    <string name="layout">Disposición</string>
+    <string name="privacy">Privacidad</string>
+
+    <string name="lockscreen_notifications">Lockscreen notifications</string>
+    <string name="lockscreen_notifications_summary">Mostrar notificaciones pendientes en la pantalla de bloqueo</string>
+    <string name="pocket_mode">Modo bolsillo</string>
+    <string name="pocket_mode_summary">Encender la pantalla con todas las notificaciones cuando el dispositivo no está en el bolsillo. Apagar la pantalla al guardarlo en el bolsillo.</string>
+    <string name="show_always">Mostrar siempre</string>
+    <string name="show_always_summary">Encender siempre la pantalla al sacar el dispositivo del bolsillo, aunque no haya notificaciones pendientes.</string>
+    <string name="hide_low_priority">Esconder baja prioridad</string>
+    <string name="hide_low_priority_summary">Econder notificaciones de poca importancia como las notificaciones de tiempo de Google Nows</string>
+    <string name="hide_non_clearable">Esconder no ocultables</string>
+    <string name="hide_non_clearable_summary">Esconder todas las notificaciones no ocultables</string>
+    <string name="dismiss_all">Permitir ocultar todas las notificaciones</string>
+    <string name="dismiss_all_summary">Permitir ocultar incluso las notificaciones no ocultables. Por supuesto, solo se ocultan en la pantalla de bloqueo y no en el panel de notificaciones.</string>
+    <string name="expanded_view">Vista expandida de las notificaciones</string>
+    <string name="expanded_view_summary">Añadir posibilidad para cambiar entre modo normal y expandido con una pulsación larga. El modo expandido a veces muestra más información privada, así que deberías desactivarlo si quieres privacidad.</string>
+    <string name="force_expanded_view">Forzar vista expandida</string>
+    <string name="force_expanded_view_summary">Mostrar notificaciones expandidas por defecto. Todavía puedes cambiar entre vista expandida y normal.</string>
+    <string name="wake_on_notification">Despertar en notificación</string>
+    <string name="wake_on_notification_summary">Despertar el dispositivo al recibir una notificación</string>
+    <string name="notifications_height">Contador de notificaciones</string>
+    <string name="notifications_height_summary">Número de notificaciones que se muestran a la vez</string>
+    <string name="offset_top">Desplazamiento a la parte superior de la pantalla:</string>
+    <string name="privacy_mode">Modo privacidad</string>
+    <string name="privacy_mode_summary">Desactivar notificaciones desde que las ves y ocultas. De esta forma, solo ves los iconos de las notificaciones.</string>
 </resources>
 
