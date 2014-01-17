@@ -7,14 +7,6 @@
 
     <PreferenceCategory
         android:title="@string/system_custom_title" /> 
-
-    <!-- Status bar -->
-    <PreferenceScreen
-        android:id="@+id/system_statusbar"
-        android:icon="@drawable/ic_dt_notification"
-        android:fragment="com.android.settings.rascarlo.SystemStatusbar"
-        android:title="@string/system_statusbar_title" />
-
     <!-- Navbar -->
     <PreferenceScreen
         android:id="@+id/system_navbar"
