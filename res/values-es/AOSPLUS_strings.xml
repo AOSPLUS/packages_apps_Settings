@@ -2,6 +2,16 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
    
+
+    <!-- Settings main menu category heading. Rom (Launcher, Themes, System). [CHAR LIMIT=40] -->
+    <string name="header_category_rom_settings">Ajustes avanzados</string>
+    <!-- System Interface settings  -->
+    <string name="system_lock_title">Pantalla de bloqueo</string>
+    <string name="system_custom_title">Interfaz</string>
+    <string name="system_navbar_title">Barra de navegación</string>
+    <string name="system_settings_title">Ajustes de AOSPLUS</string>
+    <string name="system_interface_title">Ajustes de AOSPLUS</string>
+
     <!-- Notification LED -->
     <string name="notification_led_category_title">Led de notificaciones</string>
     <string name="edit_light_settings">Editar notificación</string>
