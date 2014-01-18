@@ -29,4 +29,11 @@
         android:fragment="com.android.settings.rascarlo.SystemLock"
         android:title="@string/system_lock_title" />
 
+    <!-- Keyboard -->
+    <PreferenceScreen
+        android:id="@+id/system_keyboard"
+        android:icon="@drawable/ic_lockscreen_ime"
+        android:fragment="com.android.settings.rascarlo.SystemKeyboard"
+        android:title="@string/system_keyboard_title" />
+
 </PreferenceScreen>
