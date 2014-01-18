@@ -37,6 +37,7 @@ import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceClickListener;
+import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
 import android.provider.Settings.SettingNotFoundException;
@@ -98,6 +99,8 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         ContentResolver resolver = getActivity().getContentResolver();
 
         addPreferencesFromResource(R.xml.display_settings);
+
+        PreferenceScreen prefSet = getPreferenceScreen();
 
         mAccelerometer = (CheckBoxPreference) findPreference(KEY_ACCELEROMETER);
         mAccelerometer.setPersistent(false);
