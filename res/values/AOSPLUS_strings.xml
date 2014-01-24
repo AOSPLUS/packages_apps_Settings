@@ -310,7 +310,4 @@
     <string name="identicons_style_spirograph">Spirograph</string>
     <string name="identicons_style_dotmatrix">Dot matrix</string>
 
-    <!-- Navbar height -->
-    <string name="navigation_bar_summary">Enable or Disable the Navigation Bar.</string>
-    <string name="navigation_bar_height">Navigation bar height:</string>
 </resources>
