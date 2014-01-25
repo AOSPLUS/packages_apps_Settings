@@ -16,12 +16,6 @@
         android:fragment="com.android.settings.crdroid.LockscreenTargets"
         android:title="@string/lockscreen_targets_title" />
 
-    <!-- Lockscreen see through -->
-    <CheckBoxPreference
-        android:key="see_through"
-        android:title="@string/see_through_title"
-        android:summary="@string/see_through_summary" />
-
     <!-- Lockscreen ring battery -->
     <CheckBoxPreference
         android:key="battery_around_lockscreen_ring"
