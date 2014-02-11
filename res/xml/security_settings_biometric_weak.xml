@@ -21,6 +21,10 @@
         android:title="@string/lock_settings_title">
 
         <PreferenceScreen
+            android:title="@string/lockscreen_notifications"
+            android:fragment="com.android.settings.AOSPAL.LockscreenNotifications" />
+
+        <PreferenceScreen
             android:key="unlock_set_or_change"
             android:title="@string/unlock_set_unlock_launch_picker_title"
             android:summary="@string/unlock_set_unlock_mode_biometric_weak"
@@ -61,9 +65,22 @@
             android:title="@string/owner_info_settings_title"
             android:summary="@string/owner_info_settings_summary"/>
 
-        <PreferenceScreen
-            android:title="@string/lockscreen_notifications"
-            android:fragment="com.android.settings.AOSPAL.LockscreenNotifications" />
+        <CheckBoxPreference
+            android:key="see_through"
+            android:title="@string/see_through_title"
+            android:summary="@string/see_through_summary" />
+
+        <CheckBoxPreference
+            android:key="blur_behind"
+            android:title="@string/blur_behind_title"
+            android:summary="@string/blur_behind_summary" />
+
+        <SeekBarPreference
+            android:key="blur_radius"
+            android:title="@string/blur_radius_title"
+            android:summary="@string/blur_radius_summary"
+            android:max="25"
+            android:defaultValue="12" />
 
     </PreferenceCategory>
 
